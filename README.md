@@ -36,3 +36,8 @@ Also, you can configure API URL providing `BASE_URL` environment variable.
 After running with `npm test` reports will be generated in the `reports` directory:
 -   `gorest-api-tests.xml`: JUnit report.
 -   `gorest-api-tests-report.html`: HTML report.
+
+## CI
+A `Run API Tests` workflow is configured for GitHub Actions.
+This workflow automatically triggers on push to the `main` branch and pull request creation, but it can also be manually triggered.
+Test reports are stored as artifacts for every execution of the `Run API Tests` workflow.

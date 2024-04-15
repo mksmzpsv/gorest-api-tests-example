@@ -2,7 +2,7 @@ export default class BaseController {
   /**
   * @typedef ControllerOptions {Object}
   * @property {string} prefixUrl - base URL.
-  * @property {typeof BaseHttpRequest} RequestBuilder - request builder intance.
+  * @property {Object} RequestBuilder - request builder instance.
   */
 
   /**
